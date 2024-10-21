@@ -2,9 +2,10 @@ import logging
 import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters.command import Command
+from aiogram.filters import CommandObject
 import config
-from First.keyboards.keyboards import kb1, kb2
-from First.utils.Photo import fox
+from keyboards import kb1, kb2
+from Photo import fox
 
 API_TOKEN = config.token
 
